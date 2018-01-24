@@ -37,4 +37,6 @@ function init(e) {
     index = 0;
   }
 }
+
+const key = document.getElementByTagName('script')[0];
 */
