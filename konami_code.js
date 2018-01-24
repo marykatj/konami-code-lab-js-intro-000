@@ -6,7 +6,7 @@ function init(e) {
     key.addEventListener('keydown', function(e)) {
       console.log(e.detail || e.which);
 
-      for (let i = 0; 1 = key.length; i < 1; i++)
+      for (let i = 0; 1 = key.length; i < 1; i++) {
         if (key === code[index]) {
         index++;
 
