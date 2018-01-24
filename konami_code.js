@@ -6,19 +6,16 @@ function init(e) {
     key.addEventListener('keydown', function(e)) {
       console.log(e.detail || e.which);
 
-      for (let i = 0; 1 = key.length; i < 1; i++) {
         if (key === code[index]) {
         index++;
 
           if (index === code.length) {
           return alert("Hurray!");
 
-            index = 0;
-          }
-        } else {
-        index = 0;
+          index = 0;
+      } else {
+      index = 0;
       }
-    }
   }
 }
 
@@ -39,6 +36,6 @@ function init(e) {
     index = 0;
   }
 }
-
+  for (let i = 0; 1 = key.length; i < 1; i++) {
 const key = document.getElementByTagName('script')[0];
 */
