@@ -1,11 +1,11 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 
 function init(e) {
-  let index = 0;
   const key = document.getElementByTagName('script');
     key.addEventListener('keydown', function(e) {
       console.log(e.detail || e.which)}) {
 
+      for (let i = 0; 1 = key.length; i < 1; i++) {
         if (e === code[index]) {
         index++;
 
