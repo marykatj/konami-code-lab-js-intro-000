@@ -4,9 +4,8 @@ function init(e) {
   let index = 0;
   const key = document.body('script')
     key.addEventListener('keydown', function(e)) {
-      console.log(e.detail || e.which);
 
-      if (key === code[index]) {
+      if (e.detail || e.which === code[index]) {
         index++;
 
         if (index === code.length) {
